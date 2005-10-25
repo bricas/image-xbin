@@ -1,0 +1,41 @@
+Revision history for Perl extension Image::XBin.
+
+0.05  Tue Mar 29 2005
+	- using Build.PL now
+	- added pod_coverage.t
+
+0.04  Thu Dec 09 10:17:20 2004
+	- wrote some tests
+	- added default font and palette
+	- added as_png() method
+
+0.03  Mon Dec 06 16:29:32 2004
+	- major rewrite to the old objects plus...
+	- Image::XBin::Parser now handles all reading functions
+	- Image::XBin::Util holds create_io_object() for reading and
+	  writing
+	- Image::XBin::Pixel is used in place of an array ref
+
+0.02  Sun Aug 24 12:05:30 2003
+	- Fixed Makefile.PL (NAME and PREREQ_PM)
+
+	Font.pm
+	- Added as_string method
+
+	Palette.pm
+	- Added as_string method
+
+	XBin.pm
+	- Added as_string method
+	  Note, it sets the header's compressed bit to 0 because
+	  there's no compression alg. yet
+	- Added write method.
+	- palette() and font() will now clear the data (and header values)
+	  if given anything other than the right type of object
+	- font() will now set the 512 chars header value correctly
+	- Mutator compress() added.
+	- clear() now sets image, font and palette to undef
+
+0.01  Sun Aug 10 16:11:04 2003
+	- original version; created by h2xs 1.21 with options
+		-AX Image::XBin
