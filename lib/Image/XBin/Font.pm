@@ -40,7 +40,7 @@ use warnings;
 use GD;
 use File::Temp;
 
-our $VERSION = '0.04';
+our $VERSION = '0.06';
 
 =head1 METHODS
 
@@ -205,7 +205,7 @@ sub height {
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004 by Brian Cassidy
+Copyright 2003-2009 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

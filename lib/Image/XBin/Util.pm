@@ -22,7 +22,7 @@ use IO::File;
 use IO::String;
 
 our @EXPORT  = qw( create_io_object );
-our $VERSION = '0.01';
+our $VERSION = '0.06';
 
 =head1 METHODS
 
@@ -66,7 +66,7 @@ sub create_io_object {
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004 by Brian Cassidy
+Copyright 2003-2009 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

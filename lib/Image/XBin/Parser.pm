@@ -33,7 +33,7 @@ use constant FULL_COMPRESSION      => 192;
 use constant COMPRESSION_TYPE      => 192;
 use constant COMPRESSION_COUNTER   => 63;
 
-our $VERSION        = '0.03';
+our $VERSION        = '0.06';
 
 my $eof_char        = chr( 26 );
 my $header_template = 'A4 C S S C C';
@@ -291,7 +291,7 @@ sub _parse_uncompressed {
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004 by Brian Cassidy
+Copyright 2003-2009 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

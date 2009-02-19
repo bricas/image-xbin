@@ -1,5 +1,9 @@
 Revision history for Perl extension Image::XBin.
 
+0.06  Thu Feb 19 2009
+    [ DEPRECATION NOTICE ]
+    This module has been replaced by Image::TextMode.
+
 0.05  Tue Mar 29 2005
 	- using Build.PL now
 	- added pod_coverage.t

@@ -2,7 +2,11 @@ package Image::XBin;
 
 =head1 NAME
 
-Image::XBin - Load, create, manipulate and save XBin image files
+Image::XBin - (DEPRECATED) Load, create, manipulate and save XBin image files
+
+=head1 DEPRECATION NOTICE
+
+    This module has been replaced by Image:TextMode.
 
 =head1 SYNOPSIS
 
@@ -91,7 +95,7 @@ use Image::XBin::Palette::Default;
 use Image::XBin::Font::Default;
 use GD;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 use constant XBIN_ID          => 'XBIN';
 
@@ -551,7 +555,7 @@ Returns the image height.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2005 by Brian Cassidy
+Copyright 2003-2009 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

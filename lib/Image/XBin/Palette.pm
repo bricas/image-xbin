@@ -32,7 +32,7 @@ Xbin images can contain palette (16 indexes) data. This module will allow you to
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '0.06';
 
 =head1 METHODS
 
@@ -154,7 +154,7 @@ sub clear {
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2004 by Brian Cassidy
+Copyright 2003-2009 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 
